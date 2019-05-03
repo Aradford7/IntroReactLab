@@ -4,7 +4,7 @@ import './index.css';
 import Post from './App.js';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Post />, document.getElementById('root'));
+ReactDOM.render(<Post/>, document.getElementById('root'));//check passing data didn do anything
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
