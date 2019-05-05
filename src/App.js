@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Post from './Post';
+import Comment from './Comment';
 
 
 
@@ -8,7 +9,10 @@ import Post from './Post';
 function App() {
   return(
     <div className = "App">
-      <Post />
+      <Post title = {"Harry Potter"} 
+            author = {"JK Rowling"} 
+            body ={["You're a wizard, Harry - Hagrid.", <br/>,"I am the best - Voldemort."]} />
+      <Comment />
     </div>
   )
 }

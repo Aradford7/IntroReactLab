@@ -5,6 +5,7 @@ import React, {Component} from 'react';
 //create post class..Components always captialize
 class Post extends Component {
     render(){
+        console.log(this.props,'this.props <====')
         return(
             <div>
                 <h1>{this.props.title}</h1>
@@ -12,8 +13,8 @@ class Post extends Component {
                 <div>
                     <p>{this.props.body}</p>
                 </div>
-                <h3>Comments:</h3>
-                </div>
+                
+            </div>
 
         );
     }
